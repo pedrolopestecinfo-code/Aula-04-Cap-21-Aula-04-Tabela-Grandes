@@ -34,28 +34,34 @@
 background-color: whitesmoke;
 
         }
+        tfoot {
+            background-color: gray;
+            color: black;
+        }
     </style>
 </head>                    
 <body>
     <table>
-         <caption ><strong>
+        <caption ><strong>
             População dos Estados Brasileiros - 2024
         </strong>
-         </caption>  
+        </caption>  
+        <thead>
             <tr>
                 <td><strong>Estado</td>
                 <td><strong>População</td>
                 <td> <strong>Comando HTML Utilizado</td>
             </tr>
+            </thead>
             <tr>
                 <td><strong>Acre</td>
                 <td class="num"> <mark>830.018</mark></td>
                 <td><strong>'Negrito'</strong> e '<mark>Destacado</mark>'</td>
             </tr>
             <tr>
-                <td>Alagoas</td>
+                <td><i>Alagoas</td>
                 <td class="num">3.365.351</td>
-                <td>'Itálico'</td>
+                <td><i>'Itálico'</td>
             </tr>
             <tr>
                 <td><u>Amapá</td>
@@ -73,7 +79,7 @@ background-color: whitesmoke;
                 <td>'Texto sobrescrito'</td>
             </tr>
             <tr>
-                <td>CE</td>
+                <td><abbr title="Ceará">CE</abbr></td>
                 <td class="num">9.240.580</td>
                 <td>'Abreviação'</td>
             </tr>
@@ -98,7 +104,7 @@ background-color: whitesmoke;
                 <td>'Texto monoespaçado'</td>
             </tr>
             <tr>
-                <td>Mato Grosso</td>
+                <td><blockquote>Mato Grosso</td>
                 <td class="num">3.658.813</td>
                 <td>'Texto pré-formatado'</td>
             </tr>
@@ -113,7 +119,7 @@ background-color: whitesmoke;
                 <td>'Texto subscrito'</td>
             </tr>
             <tr>
-                <td>Rio de Janeiro</td>
+                <td><blockquote>Rio de Janeiro</td>
                 <td class="num">16.054.524</td>
                 <td>'Citação em bloco'</td>
             </tr>
@@ -123,7 +129,7 @@ background-color: whitesmoke;
                 <td><strong>'Negrito'</td>
             </tr>
             <tr>
-                <td>Rondônia</td>
+                <td><i>Rondônia</td>
                 <td class="num">1.616.379</td>
                 <td>'Itálico'</td>
             </tr>
@@ -133,15 +139,17 @@ background-color: whitesmoke;
                 <td >'<mark>Texto Destacado</mark>'</td>
             </tr>
             <tr>
-                <td>TO</td>
+                <td><abbr title="Tocantins">TO</abbr></td>
                 <td class="num">1.607.363</td>
                 <td>'Abreviação'</td>
             </tr>
+            <tfoot>
             <tr >
                 <td><strong>Total da população estimada:</td>
                 <td class="dir"><strong>Soma total</td>
                 <td>Realizar a soma das colunas</td>
             </tr>
+        </tfoot>
     </table>
 </body>
 </html>
